@@ -1,9 +1,9 @@
-# Netcool Probe Rules File VSCode Language
+## Netcool Probe Rules File VSCode Language
 
 **This is a fork as the original extension is no longer maintained**
-**Original Repo:** ibm_rules_extension
-**Original Creator** Roger Whitley
-**Original Link:** https://github.com/RogerWhitley/ibm_rules_extension
+
+- **Original Repository:** [ibm_rules_extension](https://github.com/RogerWhitley/ibm_rules_extension)
+- **Original Creator:** Roger Whitley
 
 This Language extension is designed to provide syntax hylighting for IBM Netcool/Tivoli proprietary .rules files used for Objectserver Probes.
 
