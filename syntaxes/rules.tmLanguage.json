@@ -149,7 +149,7 @@
                     "name": "keyword.control.catch-exception.rules"
                 },
                 {
-                    "match": "(?<!\\$)\\b(break|case|continue|default|do|else|for|if|in|return|switch|while)\\b(?!\\$)",
+                    "match": "(?<!\\$)\\b(break|case|continue|default|do|else|for|foreach|if|in|return|switch|while)\\b(?!\\$)",
                     "name": "keyword.control.rules"
                 },
                 {
