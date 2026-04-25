@@ -1,12 +1,18 @@
 {
-    "name": "netcool-rules",
-    "displayName": "rules",
-    "version": "0.0.1",
-    "publisher": "thegreatsardini",
-    "description": "IBM Netcool .rules file language highlighting.",
+    "name": "netcool-rules-revived",
+    "displayName": "Netcool Rules Language Support (Revived)",
+    "version": "0.1.0",
+    "publisher": "chef-99",
+    "description": "Syntax highlighting for IBM Netcool/Tivoli .rules files. Maintained and updated version of the original ibm_rules_extension.",
     "author": {
-        "name": "thegreatsardini"
+        "name": "Chef-99"
     },
+    "contributors": [
+        {
+            "name": "Roger Whitley",
+            "url": "https://github.com/RogerWhitley"
+        }
+    ],
     "categories": [
         "Programming Languages"
     ],
@@ -16,35 +22,42 @@
         "theme": "light"
     },
     "engines": {
-        "vscode": "^1.52.0"
+        "vscode": "^1.70.0"
     },
-    "license": "SEE LICENSE IN LICENSE.md",
+    "homepage": "https://github.com/Chef-99/IBM_Rules_Extension_Revived",
     "bugs": {
-        "url": "https://github.com/TheGreatSardini/ibm_rules_extension/issues"
+        "url": "https://github.com/Chef-99/IBM_Rules_Extension_Revived/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/TheGreatSardini/ibm_rules_extension.git"
+        "url": "https://github.com/Chef-99/IBM_Rules_Extension_Revived.git"
     },
     "keywords": [
         "rules",
         "ibm",
+        "netcool",
+        "tivoli",
+        "omnimbus",
         "objectserver",
         "probes",
-        "netcool",
-        "tivoli"
+        "syntax",
+        "highlighting"
     ],
     "contributes": {
-        "languages": [{
-            "id": "rules",
-            "aliases": ["netcool.rules", "rules"],
-            "extensions": [".rules"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "rules",
-            "scopeName": "source.rules",
-            "path": "./syntaxes/rules.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "rules",
+                "aliases": ["Netcool Rules", "rules"],
+                "extensions": [".rules"],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "rules",
+                "scopeName": "source.rules",
+                "path": "./syntaxes/rules.tmLanguage.json"
+            }
+        ]
     }
 }
