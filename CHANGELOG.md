@@ -11,3 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/),
 ### Added
 - First Release.
 - Primary code highlighting.
+
+## [2.0.0] - 2026-04-27
+### Added
+- Highlighting for foreach
+- Highlighting for lowercase $ variables e.g $variable
