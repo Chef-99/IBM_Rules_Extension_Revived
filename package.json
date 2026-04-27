@@ -1,7 +1,7 @@
 {
     "name": "netcool-rules-revived",
     "displayName": "Netcool Rules Language Support (Revived)",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "publisher": "chef-99",
     "description": "Syntax highlighting for IBM Netcool/Tivoli .rules files. Maintained and updated version of the original ibm_rules_extension.",
     "author": {
