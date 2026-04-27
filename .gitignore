@@ -1,16 +1,1 @@
-.DS_Store
-.packages
-.pub/
-.test_results/
-.vscode-test/
-.vscode/.browse.VC.db*
-*.log
-build/
-coverage/
-ios/.generated/
-logs/
-node_modules/
-out/
-pubspec.lock
-Generated.xcconfig
-*.vsix
+netcool-rules-revived-2.0.0.vsix
